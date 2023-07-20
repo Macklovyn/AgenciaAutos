@@ -1,0 +1,38 @@
+/* Estilos para el margen entre el icono y el texto */
+.list-unstyled-usuario li {
+    display: flex;
+    /* Para alinear el icono y el texto en línea */
+    align-items: center;
+    /* Para centrar verticalmente el icono y el texto */
+    margin-bottom: 10px;
+    /* Margen inferior entre elementos de la lista */
+    transition: all 0.3s ease;
+    /* Efecto de transición para cambios al hacer hover */
+}
+
+.list-unstyled-usuario li:hover {
+    cursor: pointer;
+    /* Color de fondo cuando se hace hover */
+}
+
+.list-unstyled-usuario li svg {
+    margin-right: 10px;
+    /* Margen a la derecha del icono */
+    transition: all 0.3s ease;
+    /* Efecto de transición para cambios al hacer hover */
+}
+
+.list-unstyled-usuario li:hover svg {
+    fill: #007bff;
+    /* Color del icono al hacer hover */
+}
+
+.list-unstyled-usuario li span {
+    transition: all 0.3s ease;
+    /* Efecto de transición para cambios al hacer hover */
+}
+
+.list-unstyled-usuario li:hover span {
+    color:#007bff;
+    /* Color del texto al hacer hover */
+}
