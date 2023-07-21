@@ -19,7 +19,7 @@ include './header.php';
     <img src='https://images.unsplash.com/photo-1605647381739-9bba88b1c5d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'>
 </figure>
 <div class="contenido-card">
-    <h3>Seguridad</h3>
+    <h3>Seguridad y Mantenimiento</h3>
     <p>Top Secret es la elección ideal para garantizar tu seguridad debido a nuestra experiencia probada en el campo, tecnología avanzada y equipos 
         altamente capacitados.</p>
     <a href="../vistas/seguridad.php">Leer Màs</a>
@@ -189,6 +189,7 @@ include './header.php';
         </div>
       </div>
     </section>
+
     </main>
 
     <?php 

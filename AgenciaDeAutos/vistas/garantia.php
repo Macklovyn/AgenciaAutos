@@ -24,20 +24,53 @@ include './header.php';
             procedencia y calidad de nuestros vehículos. Para respaldar aún más tu compra, ofrecemos garantías completas en todos nuestros automóviles. 
             Nuestras garantías cubren una amplia gama de componentes, incluyendo el motor, la transmisión, el sistema de frenos, la suspensión y 
             mucho más. Esto te brinda la tranquilidad de saber que, en caso de cualquier problema o defecto, estaremos allí para ayudarte.</p>
+            <br>
       </section>
 
       <center>
-      <div class="card mb-3" style="max-width: 720px;"> <!-- Ajustamos el max-width a 720px -->
-  <img src="../img/garantia2.jpg" class="card-img-top" alt="Garantía" style="height: 400px; object-fit: cover;">
-  <div class="card-body">
-    <h5 class="card-title">Garantia</h5>
-    <p class="card-text">La garantía de un automóvil es una promesa del fabricante de que el vehículo estará libre de defectos durante un período 
+
+      <div class="contenedor">
+            <figure>
+                <img src="../img/garantia2.jpg">
+                <div class="capa">
+                    <h3>Garantia</h3>
+                    <p>La garantía de un automóvil es una promesa del fabricante de que el vehículo estará libre de defectos durante un período 
                         específico de tiempo o una cantidad de kilómetros recorridos. La garantía generalmente cubre reparaciones y reemplazos de 
                         componentes específicos del automóvil en caso de fallos o mal funcionamiento dentro del período establecido.</p>
-  </div>
-</div>
+                </div>
+            </figure>
+    </div>
 </center>
 <br>
+
+<section>
+        <div class="container-texto">
+        <h1 class="skills-titleBLACK"><small>Top Secret respalda sus vehículos con algo más que palabras.</small></h1>
+        <p class="section-description">Somos los primeros en confiar en nuestros vehículos, por eso ofrecemos la mejor garantía para asegurar que la
+            experiencia de uso sea única. Nuestros vehículos cero kilómetro comercializados y entregados a partir del 1 de septiembre de 2018,
+            gozan de una garantía sobre el vehículo por 5 años o 150.000 km (lo que ocurra primero).</p>
+        </div>
+        <br>
+</section>
+  
+<section>
+        <div class="container-texto">
+        <h1 class="skills-titleBLACK"><small>Garantía previa de 3 años</small></h1>
+        <p class="section-description">Todos los vehículos 0 (cero) kilometro vendidos y entregados antes del 1 de Septiembre de 2018, 
+            continúan gozando de la ya conocida Garantía que lo ampara por 3 años o 100.000 Km (lo que ocurra primero) y comienza con la fecha de 
+            entrega de su vehículo.</p>
+        </div>
+        <br>
+</section>
+
+<section>
+        <div class="container-texto">
+        <h1 class="skills-titleBLACK" style="color: #b12a5b;"><small>No comercializamos garantía extendida</small></h1>
+        </div>
+        <br>
+        <img  class="rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2013/07/13/09/51/unauthorised-156169_1280.png" width="200" height="200">
+        <br>
+</section>
 
     </main>
     <?php 

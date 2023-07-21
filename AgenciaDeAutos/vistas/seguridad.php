@@ -5,7 +5,7 @@ include './header.php';
     <main>
      <section>
             <div class="container-security">
-                <h1 class="h1">Seguridad</h1>
+                <h1 class="h1">Seguridad y Mantenimiento</h1>
             </div>
         </section>
 
@@ -24,7 +24,9 @@ include './header.php';
         Nuestros vehículos ofrecen amplia visibilidad y capacidad superior de conducción, a la vez que proporciona a los conductores tecnologías 
         preventivas de seguridad avanzadas.</p>
     </section>
+    <br>
 
+    <section>
         <h3 class="skills-titleBLACK">Ofrecemos en nuestros vehiculos:</h3>
         <div class="contenedor">
             <div class="tabla">
@@ -48,6 +50,128 @@ include './header.php';
                 <a href="#" class="boton">Conocer más</a>
             </div>
         </div>
+        </section>
+
+    <center>
+    <h1 class="skills-titleBLACK">Precios 2023</h1>
+    <div class="custom-container">
+    <div class="custom-header">
+      <h2 class="experience-date" style="color: #fff">¿Qué servicio te interesa?</h2>
+      <div class="form-column custom-form-group">
+        <label class="experience-position">Selecciona un servicio:</label>
+
+        <div class="form-check">
+  <input class="form-check-input" type="radio" value="" name="serviceType" value="distance" id="distanceService" checked>
+  <label class="form-check-label" for="distanceService">
+  Kilometraje/Distancia
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="" name="serviceType" value="brakes" id="brakesService">
+  <label class="form-check-label" for="brakesService">
+  Servicio de frenos
+  </label>
+</div>
+
+    <div class="form-group">
+      <label class="experience-position">Selecciona tu carro:</label>
+      <select id="carType" class="custom-input">
+        <option value="1">SUBARU BRZ</option>
+        <option value="2">SUBARU WXR</option>
+        <option value="3">NISSAN GT-R</option>
+        <option value="4">NISSAN 370Z</option>
+        <!-- Agrega más opciones de carros según sea necesario -->
+      </select>
+    </div>
+    <div class="form-group" id="distanceOptions">
+      <label class="experience-position">Kilometraje:</label>
+      <select id="distance" class="custom-input">
+        <option value="1">1-30 km</option>
+        <option value="2">31-60 km</option>
+        <option value="3">61-90 km</option>
+        <option value="4">91 o más km</option>
+      </select>
+    </div>
+    <div class="form-group" id="brakesOptions" style="display:none;">
+      <label class="experience-position">Tipo de frenos:</label>
+      <select id="brakesType" class="custom-input">
+        <option value="4">4 Ruedas</option>
+        <option value="2">Delanteras</option>
+        <option value="3">Traseras</option>
+      </select>
+    </div>
+    <div class="custom-total-cost" id="totalCost">Costo aproximado: $0</div>
+  </div>
+  </center>
+  <br>
+
+  <script>
+    const distanceOptions = document.getElementById('distanceOptions');
+    const brakesOptions = document.getElementById('brakesOptions');
+    const carType = document.getElementById('carType');
+    const distance = document.getElementById('distance');
+    const brakesType = document.getElementById('brakesType');
+    const totalCost = document.getElementById('totalCost');
+    const distanceService = document.getElementById('distanceService');
+    const brakesService = document.getElementById('brakesService');
+
+    function calculateCost() {
+      const carMultiplier = parseFloat(carType.value);
+      let serviceCost = 0;
+
+      if (distanceService.checked) {
+        switch (distance.value) {
+          case '1':
+            serviceCost = 1120;
+            break;
+          case '2':
+            serviceCost = 1340;
+            break;
+          case '3':
+            serviceCost = 1490;
+            break;
+          case '4':
+            serviceCost = 1675;
+            break;
+          default:
+            serviceCost = 0;
+        }
+        brakesOptions.style.display = 'none';
+        distanceOptions.style.display = 'block';
+      } else if (brakesService.checked) {
+        switch (brakesType.value) {
+          case '4':
+            serviceCost = 1400;
+            break;
+          case '2':
+            serviceCost = 820;
+            break;
+          case '3':
+            serviceCost = 670;
+            break;
+          default:
+            serviceCost = 0;
+        }
+        distanceOptions.style.display = 'none';
+        brakesOptions.style.display = 'block';
+      }
+
+      const total = carMultiplier * serviceCost;
+      totalCost.textContent = `Costo aproximado: $${total}`;
+    }
+
+    document.querySelectorAll('input[name="serviceType"]').forEach(function(radio) {
+      radio.addEventListener('change', function() {
+        calculateCost();
+      });
+    });
+
+    document.querySelectorAll('select').forEach(function(select) {
+      select.addEventListener('change', calculateCost);
+    });
+
+    calculateCost(); // Calculamos el costo al cargar la página.
+  </script>
 
     </main>
     <?php 
