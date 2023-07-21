@@ -14,22 +14,16 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/video.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.16.0/font/bootstrap-icons.css">
-
     
-    <link rel="stylesheet" href="../css/seguridad.css">
     <link rel="stylesheet" href="../css/topSecret.css">
     <link rel="stylesheet" href="../css/estiloV2.css">
     <script src="../Catalogo/script.js"></script>
     <!--
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     -->
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -44,17 +38,14 @@
                 </div>
             </a>
             <ul class="links">
-                <li><a href="../vistas/vehiculos.php">Autos</a></li>
+                <li ><a href="../vistas/vehiculos.php">Autos</a></li>
                 <li><a href="../vistas/topSecret.php">¿Por qué Top Secret?</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="../vistas/cuenta.php">Cuenta</a></li>
             </ul>
             <a href="$" class="action_btn">Contacto</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
-
-            
         </div>
 
         <div class="dropdown_menu">
@@ -62,7 +53,6 @@
             <li><a href="#">¿Por que Top Secret?</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#" class="action_btn">Contacto</a></li>
-            <li><a href="../vistas/cuenta.php">Cuenta</a></li>
         </div>
     </header>
 <!-- Llamada al archivo JavaScript -->
