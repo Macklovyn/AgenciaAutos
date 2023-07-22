@@ -49,8 +49,8 @@
         </div>
 
         <div class="dropdown_menu">
-            <li><a href="#">Autos</a></li>
-            <li><a href="#">¿Por que Top Secret?</a></li>
+            <li><a href="../vistas/vehiculos.php">Autos</a></li>
+            <li><a href="../vistas/topSecret.php">¿Por que Top Secret?</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#" class="action_btn">Contacto</a></li>
         </div>

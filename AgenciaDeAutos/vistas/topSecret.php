@@ -47,7 +47,6 @@ include './header.php';
     <a href="../vistas/garantia.php">Leer Màs</a>
 </div>
 </div>
-</div>
 <!--Fin   Tarjetas-->
 </section>
 
@@ -100,6 +99,7 @@ include './header.php';
     <img src="../img/wave.svg" alt="división" class="wave wave_bottom" />
   </section>
 
+  <section class="section">
   <div class="horizontal-padding vertical-padding">
     <section class="skills" id="skills">
       <h1 class="skills-titleBLACK">Responsabilidad Social</h1>
@@ -113,6 +113,7 @@ include './header.php';
       </ul>
     </section>
   </div>
+  </section>
 
   <section class="section">
       <div class="row">
