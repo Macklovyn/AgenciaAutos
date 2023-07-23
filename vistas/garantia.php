@@ -12,15 +12,6 @@ include './header.php';
 
     <div class="contenedors">
         <div class="contenidos">
-            <h1 class="skills-titleBLACK">Garantia de nuestros vehículos</h1>
-            <p class="section-description">En nuestra agencia de carros, nos comprometemos a brindarte una experiencia de compra confiable y segura.
-                Entendemos que la adquisición de un vehículo es una inversión importante, por lo que ofrecemos garantías sólidas para brindarte
-                tranquilidad y respaldo.</p>
-        </div>
-    </div>
-
-    <div class="contenedors">
-        <div class="contenidos">
             <h1 class="skills-titleBLACK">Garantia de Top Secret</h1>
             <p class="section-description">Todos los vehículos que tenemos disponibles en nuestra agencia pasan por rigurosas inspecciones y pruebas
                 antes de ser puestos a la venta. Nos aseguramos de que cada automóvil cumpla con los estándares de calidad más exigentes, tanto en

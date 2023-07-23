@@ -181,6 +181,33 @@ h4 {
     transform: scale(1.1);
 }
 
+/* Estilos para cuando el tamaño de la pantalla es igual o menor a 768px */
+@media screen and (max-width: 800px) {
+
+    .barranav .nav-links li {
+        margin: 10px 0; /* Espacio entre los enlaces en la versión móvil */
+    }
+
+    .barranav .nav-links a {
+        font-size: 11px; /* Tamaño de las letras del menú en la versión móvil */
+    }
+
+    .barranav .btn button {
+        font-size: 13px; /* Tamaño del texto del botón en la versión móvil */
+        padding: 4px 8px; /* Tamaño del botón en la versión móvil */
+    }
+
+    .barranav p {
+        font-size: 0px; /* Tamaño de las etiquetas de párrafo en la versión móvil */
+    }
+
+    .barranavLi {
+        display: inline-block;
+        padding: 0;
+        font-size: 5px;
+    }
+}
+
 /*GALERIA DE IMAGENES*/
 .linea{
     border-top: 5px solid #b12a5b;

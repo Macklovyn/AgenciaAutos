@@ -18,27 +18,27 @@ include '../vistas/header.php';
                 <h1 class="h1">Subaru WXR 2022</h1>
             </div>
         </section>
-        <section class="section">
-            <div class="container-texto">
-                <h4 class="section-title">Enciende tus aventuras</h4>
+
+    <div class="contenedors">
+        <div class="contenidos">
+                <h1 class="skills-titleBLACK">Enciende tus aventuras</h1>
                 <p class="section-description">El coche de altas prestaciones de Subaru, probado en pista y para todas las estaciones, añade emoción a cualquier conducción. Desde uso diario confortable hasta la conducción deportiva cruda y sin filtros, el WRX está preparado para encender tu pasión por la aventura.</p>
-                <br><br>
-                <h4 class="section-title">Emociones legendarias</h4>
+                <br>
+                <h1 class="skills-titleBLACK">Emociones legendarias</h1>
                 <p class="section-description">Experimenta la emoción de una conducción inspirada en los rallies y un control estimulante con el nuevo motor turbo de 2.4 litros de inyección directa. Comprueba la potencia de tu WRX con la pantalla del indicador de potencia mientras la dirección asistida eléctrica mejorada permite giros naturales que son directos y sensibles para una experiencia de conducción increíble.
                 </p>
-        
-                <h4 class="section-title">Conduce a tu ritmo</h4>
+                <br>
+                <h1 class="skills-titleBLACK">Conduce a tu ritmo</h1>
                 <p class="section-description">Un sistema de suspensión mejorado equipado con amortiguadores de control electrónico maximiza el confort a la vez que mantiene las potentes prestaciones para un manejo excepcional y un confort de marcha estable con un mínimo balanceo del vehículo.
                 </p>
-                <h4 class="section-title">Rodeado de confort</h4>
+                <br>
+                <h1 class="skills-titleBLACK">Rodeado de confort</h1>
                 <p class="section-description">Entra y experimenta el refinamiento de los asientos deportivos y el volante de cuero. En el interior no faltan las características deseables: todo está cuidadosamente adaptado para una conducción emocionante y deportiva que sea cómoda y confortable para todos los pasajeros.</p>
-                
-                <br><br>
+                <br>
             </div>
-        </section>
-        <section>
-        <br><br><br><br><br><br><br><br><br>
-        <div class="container-Colores">
+
+<div class="contenedors">
+        <div class="contenidos">
         <h4 class="section-title">Colores disponibles:</h4>
             <div class="color-select">
                 <div id="red"></div>
@@ -49,7 +49,9 @@ include '../vistas/header.php';
                 <img src="../img/WxrAzul.jpg" id="imgchangeWXR" alt="">
             </div>
         </div>
-    </section>
+        </div>
+        </div>
+
     <section>
         <br><br>
         <div class="galeria">
