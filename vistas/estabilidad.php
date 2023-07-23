@@ -12,66 +12,85 @@ include './header.php';
 
     <div class="contenedors">
         <div class="contenidos">
-            <h1 class="skills-titleBLACK">Garantia de nuestros vehículos</h1>
-            <p class="section-description">En nuestra agencia de carros, nos comprometemos a brindarte una experiencia de compra confiable y segura.
-                Entendemos que la adquisición de un vehículo es una inversión importante, por lo que ofrecemos garantías sólidas para brindarte
-                tranquilidad y respaldo.</p>
+            <h1 class="skills-titleBLACK">Definición</h1>
+            <p class="section-description">El Sistema de Control de Estabilidad (ESC, por sus siglas en inglés, Electronic Stability Control) es una 
+                tecnología de seguridad activa diseñada para mejorar la estabilidad y el control de un vehículo durante situaciones de manejo críticas. 
+                Utiliza sensores y actuadores para monitorear constantemente la trayectoria del vehículo y detectar posibles pérdidas de control. Cuando 
+                se detecta una situación de deslizamiento o desviación no intencional del camino, el sistema interviene automáticamente para ayudar a 
+                mantener el vehículo en su trayectoria deseada.
+            </p>
         </div>
     </div>
 
-    <div class="contenedors">
-        <div class="contenidos">
-            <h1 class="skills-titleBLACK">Garantia de Top Secret</h1>
-            <p class="section-description">Todos los vehículos que tenemos disponibles en nuestra agencia pasan por rigurosas inspecciones y pruebas
-                antes de ser puestos a la venta. Nos aseguramos de que cada automóvil cumpla con los estándares de calidad más exigentes, tanto en
-                términos de rendimiento como de seguridad. Además, trabajamos con los fabricantes y proveedores más confiables para garantizar la
-                procedencia y calidad de nuestros vehículos. Para respaldar aún más tu compra, ofrecemos garantías completas en todos nuestros automóviles.
-                Nuestras garantías cubren una amplia gama de componentes, incluyendo el motor, la transmisión, el sistema de frenos, la suspensión y
-                mucho más. Esto te brinda la tranquilidad de saber que, en caso de cualquier problema o defecto, estaremos allí para ayudarte.</p>
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="../videos/estabilidad.mp4" type="video/mp4">
+            Tu navegador no admite la etiqueta de video.
+        </video>
+        <div class="overlay"></div>
+
+        <div class="content">
+            <div class="heading-group">
+                <p class="strapline-copy p-z">
+                    <span>SISTEMA DE CONTROL DE ESTABILIDAD</span>
+                </p>
+                <h2 class="secundary-head h2-z">
+                    <span>El mejor sistema de Control de Estabilidad del mercado mundial.</span>
+                </h2>
+            </div>
         </div>
     </div>
-
-    <center>
-        <div class="contenedor">
-            <figure>
-                <img src="../img/garantia2.jpg">
-                <div class="capa">
-                    <h3>Garantia</h3>
-                    <p>La garantía de un automóvil es una promesa del fabricante de que el vehículo estará libre de defectos durante un período
-                        específico de tiempo o una cantidad de kilómetros recorridos. La garantía generalmente cubre reparaciones y reemplazos de
-                        componentes específicos del automóvil en caso de fallos o mal funcionamiento dentro del período establecido.</p>
-                </div>
-            </figure>
-        </div>
-    </center>
+    <!--Aqui acaba video nissan z -->
     <br>
 
     <div class="contenedors">
         <div class="contenidos">
-            <h1 class="skills-titleBLACK"><small>Top Secret respalda sus vehículos con algo más que palabras.</small></h1>
-            <p class="section-description">Somos los primeros en confiar en nuestros vehículos, por eso ofrecemos la mejor garantía para asegurar que la
-                experiencia de uso sea única. Nuestros vehículos cero kilómetro comercializados y entregados a partir del 1 de septiembre de 2018,
-                gozan de una garantía sobre el vehículo por 5 años o 150.000 km (lo que ocurra primero).</p>
+            <p class="skills-titleBLACK"><small>
+                    Principales características y tecnologías:
+                </small></p>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Sensores y Monitoreo:</div>
+                        El sistema utiliza sensores (como sensores de velocidad de las ruedas, sensores de ángulo de dirección, acelerómetros, entre 
+                        otros) para monitorear el comportamiento del vehículo y detectar cualquier desviación de la trayectoria esperada.
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Intervención Automática:</div>
+                        Si el sistema detecta una pérdida de tracción o una situación de deslizamiento, puede actuar automáticamente en los frenos 
+                        de las ruedas individuales y, en algunos casos, ajustar la potencia del motor para ayudar a corregir el deslizamiento y 
+                        mantener la estabilidad del vehículo.
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Reducción del Riesgo de Derrape y Vuelcos:</div>
+                        El ESC es especialmente efectivo en condiciones de manejo desafiantes, como curvas pronunciadas, superficies resbaladizas o 
+                        maniobras evasivas repentinas. Ayuda a evitar derrapes y vuelcos que podrían ocurrir en estas situaciones.
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Trabajo en Conjunto con ABS:</div>
+                        El Sistema de Control de Estabilidad a menudo trabaja en conjunto con el Sistema Antibloqueo de Frenos (ABS), lo que permite 
+                        el frenado controlado de ruedas individuales para mejorar aún más el control del vehículo en situaciones de emergencia.
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Reducción de Accidentes:</div>
+                        El ESC ha demostrado ser una tecnología efectiva para reducir accidentes y salvar vidas al mejorar la estabilidad y el 
+                        control del vehículo.
+                    </div>
+                </li>
+            </ol>
+            <br>
+            <p>
+            Los fabricantes de automóviles pueden tener diferentes nombres comerciales para el Sistema de Control de Estabilidad, pero la función 
+            básica es proporcionar un mayor control y estabilidad al vehículo en diversas condiciones de manejo.</p>
         </div>
-    </div>
-    </div>
-
-    <div class="contenedors">
-        <div class="contenidos">
-            <h1 class="skills-titleBLACK"><small>Garantía previa de 3 años</small></h1>
-            <p class="section-description">Todos los vehículos 0 (cero) kilometro vendidos y entregados antes del 1 de Septiembre de 2018,
-                continúan gozando de la ya conocida Garantía que lo ampara por 3 años o 100.000 Km (lo que ocurra primero) y comienza con la fecha de
-                entrega de su vehículo.</p>
-        </div>
-    </div>
-    </div>
-
-    <div class="contenedors">
-        <div class="contenidos">
-            <h1 class="skills-titleBLACK" style="color: #b12a5b;"><small>No comercializamos garantía extendida</small></h1>
-        </div>
-        <img class="rounded mx-auto d-block" src="https://cdn.pixabay.com/photo/2013/07/13/09/51/unauthorised-156169_1280.png" width="200" height="200">
-    </div>
     </div>
 
 </main>

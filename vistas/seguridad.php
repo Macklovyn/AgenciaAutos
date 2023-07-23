@@ -104,7 +104,7 @@ include './header.php';
             </div>
             <div class="tabla">
                 <h3>Tecnología de Alerta de PuntoCiego</h3>
-                <p>sistema de asistencia de conducción para la seguridad. </p>
+                <p>Sistema de asistencia de conducción para la seguridad. </p>
                 <a href="../vistas/puntoCiego.php" class="boton">Conocer más</a>
             </div>
         </div>
