@@ -4,8 +4,8 @@ include './header.php';
 
 <main>
     <section>
-        <div class="container-garanty">
-            <h1 class="h1">Garantia</h1>
+        <div class="container-airbags">
+            <h1 class="h1">Airbags Frontales y Laterales</h1>
         </div>
     </section>
     <br>

@@ -35,7 +35,7 @@ header {
     gap: 2rem;
     list-style: none;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 1rem;
 }
 
@@ -89,7 +89,6 @@ header {
 }
 
 /* Dropdown Menu */
-/* Dropdown Menu */
 .dropdown_menu {
     display: none;
     position: absolute;
@@ -106,7 +105,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 190px;
+    height: 240px;
     position: absolute;
     top: 100%;
     z-index: 9999; /* Asegúrate de que el z-index sea mayor que el valor de z-index de la navbar */
@@ -117,6 +116,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dropdown_menu a {
+    color: white;
+}
+
+.dropdown_menu a:hover {
+    color: red;
 }
 
 .dropdown_menu .action_btn {

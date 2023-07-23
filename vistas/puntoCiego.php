@@ -4,8 +4,8 @@ include './header.php';
 
 <main>
     <section>
-        <div class="container-garanty">
-            <h1 class="h1">Garantia</h1>
+        <div class="container-puntoCiego">
+            <h1 class="h1">Tecnología de Alerta de Punto Ciego</h1>
         </div>
     </section>
     <br>

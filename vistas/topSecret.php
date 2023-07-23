@@ -19,7 +19,7 @@ include './header.php';
     <img src='https://images.unsplash.com/photo-1605647381739-9bba88b1c5d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'>
 </figure>
 <div class="contenido-card">
-    <h3>Seguridad</h3>
+    <h3>Seguridad y Mantenimiento</h3>
     <p>Top Secret es la elección ideal para garantizar tu seguridad debido a nuestra experiencia probada en el campo, tecnología avanzada y equipos 
         altamente capacitados.</p>
     <a href="../vistas/seguridad.php">Leer Màs</a>
@@ -45,7 +45,6 @@ include './header.php';
     <p>Top Secret ofrece una sólida garantía en todos sus vehículos, brindando tranquilidad y respaldo a sus clientes. Su compromiso con la 
         calidad y el servicio postventa asegura que estés protegido ante cualquier eventualidad, garantizando una experiencia de compra confiable.</p>
     <a href="../vistas/garantia.php">Leer Màs</a>
-</div>
 </div>
 </div>
 <!--Fin   Tarjetas-->
@@ -100,6 +99,7 @@ include './header.php';
     <img src="../img/wave.svg" alt="división" class="wave wave_bottom" />
   </section>
 
+  <section class="section">
   <div class="horizontal-padding vertical-padding">
     <section class="skills" id="skills">
       <h1 class="skills-titleBLACK">Responsabilidad Social</h1>
@@ -113,6 +113,7 @@ include './header.php';
       </ul>
     </section>
   </div>
+  </section>
 
   <section class="section">
       <div class="row">
@@ -189,6 +190,7 @@ include './header.php';
         </div>
       </div>
     </section>
+
     </main>
 
     <?php 

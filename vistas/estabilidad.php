@@ -4,8 +4,8 @@ include './header.php';
 
 <main>
     <section>
-        <div class="container-garanty">
-            <h1 class="h1">Garantia</h1>
+        <div class="container-estabilidad">
+            <h1 class="h1">Sistema de Control de Estabilidad</h1>
         </div>
     </section>
     <br>
