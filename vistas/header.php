@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +42,7 @@
                 <li ><a href="../vistas/vehiculos.php">Autos</a></li>
                 <li><a href="../vistas/topSecret.php">¿Por qué Top Secret?</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="../vistas/cuenta.php">Cuenta</a></li>
+                <li id="cuentaLi"><a href="../vistas/cuenta.php">Cuenta</a></li>
             </ul>
             <a href="$" class="action_btn">Contacto</a>
             <div class="toggle_btn">

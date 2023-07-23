@@ -1,25 +1,29 @@
 
-<link rel="stylesheet" href="../login/login.css">
+<link rel="stylesheet" href="login.css">
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form>
+        <form method="post" action="loginprocess.php">
                 <h1>Crea tu cuenta</h1>
                 <span>Ingresa los siguientes datos</span>
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Usuario" />
-                <input type="email" id="signUpEmail" placeholder="correo" />
-                <input type="password" placeholder="contraseña" />
+                <input type="text" name="nombre" placeholder="Nombre" />
+                <input type="text" name="apellido" placeholder="Apellido" />
+                <input type="text" name="telefono" placeholder="Telefono" />
+                <input type="email" name="correo" placeholder="Correo" />
+                <input type="text" name="usuario" placeholder="Usuario" />
+                <input type="password" name="conrasena" placeholder="contraseña" />
+                <input type="hidden" name="type" value="registro">
                 <button type="submit">Registrar</button>
             </form>
         </div>
 
         <div class="form-container sign-in-container">
-            <form onSubmit={this.handleSubmitLogin}>
+            <form method="post" action="loginprocess.php">
                 <h1>Inicia Sesion</h1>
                 
-                <input type="email" id="signInEmail" placeholder="Correo" />
-                <input type="password" placeholder="Contraseña" />
+                <input type="text" name="usuario" placeholder="Correo" />
+                <input type="password" name="clave" placeholder="Contraseña" />
+                <input type="hidden" name="type" value="login">
                 <button type="submit">Ingresar</button>
             </form>
         </div>
