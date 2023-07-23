@@ -41,57 +41,71 @@ include '../vistas/header.php';
                 ayudando a obtener un mayor control del entorno.
             </p>
             <br><br>
-            <h4 class="section-title">Más Imagenes:</h4>
+
         </div>
     </section>
     <section>
-        <div class="grid-layout">
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ1.jpg" alt="">
-                    </figure>
-                </div>
+        <br><br><br><br><br><br><br>
+        <div class="container-Colores">
+        <h4 class="section-title">Colores disponibles:</h4>
+            <div class="color-select">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
             </div>
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ2.jpg" alt="">
-                    </figure>
-                </div>
+            <div class="images">
+                <img src="../img/BrzAzul.jpg" id="imgchange" alt="">
             </div>
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ3.jpg" alt="">
-                    </figure>
+        </div>
+        <br><br><br> 
+    </section>
+    <section>
+        
+        <div class="galeria">
+            <h4 class="section-title">Más imágenes:</h4>
+            <div class="linea"></div>
+            <div class="contenedor-GaleriaAuto">
+                <div class="imagenGA">
+                    <img src="../img/BRZ1.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ4.jpg" alt="">
-                    </figure>
+                <div class="imagenGA">
+                    <img src="../img/BRZ2.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ5.jpg" alt="">
-                    </figure>
+                <div class="imagenGA">
+                    <img src="../img/BRZ3.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="container-card">
-                <div class="card">
-                    <figure>
-                        <img src="../img/BRZ6.jpg" alt="">
-                    </figure>
+                <div class="imagenGA">
+                    <img src="../img/BRZ4.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
+                </div>
+                <div class="imagenGA">
+                    <img src="../img/BRZ5.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
+                </div>
+                <div class="imagenGA">
+                    <img src="../img/BRZ6.jpg" alt="" class="gallery-img">
+                    <div class="overlay overlay-2">
+                        <h5>Pulsa aquí</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
-
+<script src="../Catalogo/colorBRZ.js"></script>
 <?php
 include '../vistas/footer.php';
 ?>

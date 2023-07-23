@@ -8,7 +8,7 @@ include './header.php';
                 <h1 class="h1">Autos</h1>
             </div>
         </section>
-        <section>
+        <section class="secGrid">
             <div class="grid-layout">
                 <div class="container-card">
                     <div class="card">

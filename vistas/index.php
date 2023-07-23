@@ -11,7 +11,7 @@ include './header.php';
             <source src="../videos/nissan370z.mp4" type="video/mp4">
             Tu navegador no admite la etiqueta de video.
         </video>
-        <div class="overlay"></div>
+        <div class="overlay overlay-1"></div>
 
         <div class="content">
             <div class="heading-group">
