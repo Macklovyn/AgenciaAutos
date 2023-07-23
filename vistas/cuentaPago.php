@@ -4,7 +4,7 @@ include './header.php';
 
 <link rel="stylesheet" href="../credit-card/css/credit.css">
 
-
+<link rel="stylesheet" href="../css/cuentaUsuario.css">
 
 <div class="container pt-4">
     <div class="row">

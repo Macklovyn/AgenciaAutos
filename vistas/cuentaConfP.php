@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 
-
+<link rel="stylesheet" href="../css/cuentaUsuario.css">
 
 
 <div class="container pt-4">
