@@ -55,51 +55,43 @@ session_start();
         </aside>
 
         <div class="col-12 col-md-8">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Nombre: <?= $_SESSION['nombre'] ?> <?= $_SESSION['apellido'] ?></h5>
-                        <p class="card-text"> </p>
-                        <a href="#" class="">Editar</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Nombre: <?= $_SESSION['nombre'] ?> <?= $_SESSION['apellido'] ?></h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="">Editar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Numero de telefono: <?= $_SESSION['telefono'] ?></h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="">Editar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Numero de telefono: <?= $_SESSION['telefono'] ?></h5>
-                        <p class="card-text"> </p>
-                        <a href="#" class="">Editar</a>
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Correo: <?= $_SESSION['correo'] ?></h5>
+                                <p class="card-text"> </p>
+                                <a href="#" class="">Editar</a>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Correo: <?= $_SESSION['correo'] ?></h5>
-                        <p class="card-text"> </p>
-                        <a href="#" class="">Editar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Contraseña</h5>
-                        <p class="card-text"> </p>
-                        <a href="#" class="">Editar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
     </div>
 </div>

@@ -8,7 +8,8 @@ if($_SESSION['session'] != true)
 else{
     if($_SESSION['tipoUsuario'] == 2)
     {
-        header('Location: admin.php');
+        header('Location: ../admin/admin.php');
+    
     }
 }
 include './header.php';

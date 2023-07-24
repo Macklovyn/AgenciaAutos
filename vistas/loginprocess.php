@@ -1,8 +1,8 @@
 <?php
-$servername = "161.35.10.132";
-$username = "user";
-$password = "password";
-$dbname = "new";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "topsecret";
 
 if ($_POST['type'] == 'registro') {
     try {
@@ -49,6 +49,7 @@ if ($_POST['type'] == 'login') {
                 $_SESSION['correo'] = $row['correo'];
                 $_SESSION['usuario'] = $row['usuario'];
                 $_SESSION['tipoUsuario'] = $row['tipoUsuario'];
+                
 
                 header('Location:  cuenta.php');
             } else {
