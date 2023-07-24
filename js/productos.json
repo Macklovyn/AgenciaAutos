@@ -1,0 +1,38 @@
+[
+    {
+        "Noserie": "1",
+        "marca": "SUBARU",
+        "imagen": "../img/BrzAzul.jpg",
+        "modelo": "BRZ",
+        "color": "AZUL",
+        "precio": 1000,
+        "año": 2023
+    },
+    {
+        "Noserie": "2",
+        "marca": "SUBARU",
+        "imagen": "../img/WxrAzul.jpg",
+        "modelo": "WXR",
+        "color": "AZUL",
+        "precio": 1000,
+        "año": 2023
+    },
+    {
+        "Noserie": "3",
+        "marca": "NISSAN",
+        "imagen": "../img/GtrAzul.webp",
+        "modelo": "GT-R",
+        "color": "AZUL",
+        "precio": 1000,
+        "año": 2023
+    },
+    {
+        "Noserie": "4",
+        "marca": "NISSAN",
+        "imagen": "../img/370ZAmarillo.jpeg",
+        "modelo": "370z",
+        "color": "Amarillo",
+        "precio": 1000,
+        "año": 2023
+    }
+]

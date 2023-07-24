@@ -114,11 +114,11 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: left;
-    height: 55px;
+    height: 70px;
     padding: 3px 2%;
     margin: 0;
     background-color: #fff;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 @keyframes slideDown {
@@ -204,7 +204,13 @@ h4 {
     .barranavLi {
         display: inline-block;
         padding: 0;
-        font-size: 5px;
+    }
+
+    
+    .barranavLi ol{
+        display: inline-block;
+        padding: 0;
+        font-size: 3px;
     }
 }
 
