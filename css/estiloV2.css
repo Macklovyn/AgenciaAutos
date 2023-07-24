@@ -118,7 +118,7 @@ h4 {
     padding: 3px 2%;
     margin: 0;
     background-color: #fff;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 @keyframes slideDown {
