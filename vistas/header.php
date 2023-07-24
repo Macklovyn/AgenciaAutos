@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,10 +41,10 @@
             <ul class="links">
                 <li ><a href="../vistas/vehiculos.php">Autos</a></li>
                 <li><a href="../vistas/topSecret.php">¿Por qué Top Secret?</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="../vistas/cuenta.php">Cuenta</a></li>
+                <li><a href="../vistas/about.php">About</a></li>
+                <li id="cuentaLi"><a href="../vistas/cuenta.php">Cuenta</a></li>
             </ul>
-            <a href="$" class="action_btn">Contacto</a>
+            <a href="../vistas/contacto.php" class="action_btn">Contacto</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -52,8 +53,9 @@
         <div class="dropdown_menu">
             <li><a href="../vistas/vehiculos.php">Autos</a></li>
             <li><a href="../vistas/topSecret.php">¿Por que Top Secret?</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#" class="action_btn">Contacto</a></li>
+            <li><a href="../vistas/about.php">About</a></li>
+            <li><a href="../vistas/login.php">Cuenta</a></li>
+            <li><a href="../vistas/contacto.php" class="action_btn">Contacto</a></li>
         </div>
     </header>
 <!-- Llamada al archivo JavaScript -->

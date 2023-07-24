@@ -1,6 +1,0 @@
-Kevin Jair Barrera San Juan
-
-Diseño de:
--Vehiculos.html de la carpeta vistas
-- Diseño de toda la carpeta catalogo
-- y estilovehiculos.css de la carpeta css

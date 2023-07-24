@@ -1,5 +1,6 @@
 <?php
 include './header.php';
+session_start();
 ?>
 
 <link rel="stylesheet" href="../css/cuentaUsuario.css">
@@ -39,34 +40,67 @@ include './header.php';
                             <span class="ml-2">Metodo de pago</span>
                         </a>
                     </li>
+
+                    <li class="mt-4">
+                        <a href="./logout.php">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+                            </svg>
+                            <span class="ml-2">Cerrar Sesion</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </aside>
 
         <div class="col-12 col-md-8">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Nombre:</h5>
-                                <p class="card-text"> </p>
-                                <a href="#" class="">Editar</a>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: <?= $_SESSION['nombre'] ?> <?= $_SESSION['apellido'] ?></h5>
+                        <p class="card-text"> </p>
+                        <a href="#" class="">Editar</a>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Numero de telefono: </h5>
-                                <p class="card-text"> </p>
-                                <a href="#" class="">Editar</a>
-                            </div>
-                        </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Numero de telefono: <?= $_SESSION['telefono'] ?></h5>
+                        <p class="card-text"> </p>
+                        <a href="#" class="">Editar</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Correo: <?= $_SESSION['correo'] ?></h5>
+                        <p class="card-text"> </p>
+                        <a href="#" class="">Editar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Contraseña</h5>
+                        <p class="card-text"> </p>
+                        <a href="#" class="">Editar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
     </div>
 </div>
 </div>

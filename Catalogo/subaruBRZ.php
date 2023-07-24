@@ -20,33 +20,35 @@ include '../vistas/header.php';
             <h1 class="h1">Subaru BRZ 2023</h1>
         </div>
     </section>
-    <section class="section">
-        <div class="container-texto">
-            <h4 class="section-title">MANTENTE CERCA DE LO QUE IMPORTA</h4>
+
+    <div class="contenedors">
+        <div class="contenidos">
+            <h1 class="skills-titleBLACK">MANTENTE CERCA DE LO QUE IMPORTA</h1>
             <p class="section-description">La vida no puede ser únicamente trabajo y nada de diversión. Con una experiencia de conducción deportiva,
                 el totalmente nuevo SUBARU BRZ fue diseñado para traer alegría a tu vida todos los días.</p>
-            <br><br>
-            <h4 class="section-title">Exclusivo Motor Boxer de 2.4L de nueva generación</h4>
+                <br>
+
+            <h1 class="skills-titleBLACK">Exclusivo Motor Boxer de 2.4L de nueva generación</h1>
             <p class="section-description">La nueva generación del motor SUBARU Boxer 2.4L con el que viene equipado el totalmente nuevo
                 SUBARU BRZ, es un motor inteligente con tecnología de inyección directa de combustible que maximiza el rendimiento de este.
             </p>
+            <br>
 
-            <h4 class="section-title">Estabilidad + Control + Dinamismo</h4>
+            <h1 class="skills-titleBLACK">Estabilidad + Control + Dinamismo</h1>
             <p class="section-description">Debido a que el motor se encuentra desplazado hacia atrás, el nuevo SUBARU BRZ tiene una mayor estabilidad, dinamismo y mayor precisión en el control de curvas,
                 generando una sensación muy placentera que hace sentir el vehículo ágil y fácil de conducir.
             </p>
+            <br>
 
-            <h4 class="section-title">Alta visibilidad</h4>
+            <h1 class="skills-titleBLACK">Alta visibilidad</h1>
             <p class="section-description">El auto que transmite pasión al conducir inspira seguridad. Su audaz diseño interior ofrece extraordinarias vistas desde todos los ángulos,
                 ayudando a obtener un mayor control del entorno.
             </p>
-            <br><br>
-
+            <br>
         </div>
-    </section>
-    <section>
-        <br><br><br><br><br><br><br>
-        <div class="container-Colores">
+        
+<div class="contenedors">
+        <div class="contenidos">
         <h4 class="section-title">Colores disponibles:</h4>
             <div class="color-select">
                 <div id="red"></div>
@@ -57,53 +59,95 @@ include '../vistas/header.php';
                 <img src="../img/BrzAzul.jpg" id="imgchange" alt="">
             </div>
         </div>
-        <br><br><br> 
-    </section>
-    <section>
-        
-        <div class="galeria">
-            <h4 class="section-title">Más imágenes:</h4>
-            <div class="linea"></div>
-            <div class="contenedor-GaleriaAuto">
-                <div class="imagenGA">
-                    <img src="../img/BRZ1.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-                <div class="imagenGA">
-                    <img src="../img/BRZ2.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-                <div class="imagenGA">
-                    <img src="../img/BRZ3.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-                <div class="imagenGA">
-                    <img src="../img/BRZ4.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-                <div class="imagenGA">
-                    <img src="../img/BRZ5.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-                <div class="imagenGA">
-                    <img src="../img/BRZ6.jpg" alt="" class="gallery-img">
-                    <div class="overlay overlay-2">
-                        <h5>Pulsa aquí</h5>
-                    </div>
-                </div>
-            </div>
+</div>
+
+<div class="linea"></div>
+<div class="container">
+<h4 class="section-title">Más imágenes:</h4>
+        <section>
+        <div class="gallery">
+          <a href="#img1">
+            <img src="../img/BRZ1.jpg" alt="Imagen 1">
+          </a>
+          <a href="#img2">
+            <img src="../img/BRZ2.jpg" alt="Imagen 2">
+          </a>
+          <a href="#img3">
+            <img src="../img/BRZ3.jpg" alt="Imagen 3">
+          </a>
         </div>
+  
+      <div class="lightboxes" id="img1">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ1.jpg" alt="Imagen 1">
+      </div>
+  
+      <div class="lightboxes" id="img2">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ2.jpg" alt="Imagen 2">
+      </div>
+  
+      <div class="lightboxes" id="img3">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ3.jpg" alt="Imagen 3">
+      </div>
+  
+        <div class="gallery">
+          <a href="#img4">
+            <img src="../img/BRZ4.jpg" alt="Imagen 4">
+          </a>
+          <a href="#img5">
+            <img src="../img/BRZ5.jpg" alt="Imagen 5">
+          </a>
+          <a href="#img6">
+            <img src="../img/BRZ6.jpg" alt="Imagen 6">
+          </a>
+        </div>
+  
+      <div class="lightboxes" id="img4">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ4.jpg" alt="Imagen 4">
+      </div>
+  
+      <div class="lightboxes" id="img5">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ5.jpg" alt="Imagen 5">
+      </div>
+  
+      <div class="lightboxes" id="img6">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ6.jpg" alt="Imagen 6">
+      </div>
+  
+        <div class="gallery">
+          <a href="#img7">
+            <img src="../img/BRZ2.jpg" alt="Imagen 7">
+          </a>
+          <a href="#img8">
+            <img src="../img/BRZ1.jpg" alt="Imagen 8">
+          </a>
+          <a href="#img9">
+            <img src="../img/BRZ4.jpg" alt="Imagen 9">
+          </a>
+        </div>
+  
+      <div class="lightboxes" id="img7">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ2.jpg" alt="Imagen 7">
+      </div>
+  
+      <div class="lightboxes" id="img8">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ1.jpg" alt="Imagen 8">
+      </div>
+  
+      <div class="lightboxes" id="img9">
+        <a href="#close" class="close"></a>
+        <img src="../img/BRZ4.jpg" alt="Imagen 9">
+      </div>
+    </div>
     </section>
+        
 </main>
 <script src="../Catalogo/colorBRZ.js"></script>
 <?php
