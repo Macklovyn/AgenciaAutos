@@ -105,7 +105,7 @@ header {
 }
 
 .dropdown_menu.open {
-    height: 300px;
+    height: 360px;
     position: absolute;
     top: 100%;
     z-index: 9999; /* Asegúrate de que el z-index sea mayor que el valor de z-index de la navbar */
@@ -154,3 +154,23 @@ header {
         width: unset;
     }
 }
+
+  /*Arriba*/
+  .btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: #b12a5b;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+    z-index: 9999;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }

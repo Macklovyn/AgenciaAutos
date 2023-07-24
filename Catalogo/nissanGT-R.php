@@ -7,7 +7,7 @@ include '../vistas/header.php';
             <ol>
                 <p>A partir de</p>
             </ol>
-            <ol class="barranavLi">$2,078,413.41</ol>
+            <ol class="barranavLi" style="font-size: 26px">$2,078,413.41</ol>
             <li><a href="#">Especificaciones</a></li>
             <li><a href="./desempeñoGT-R.php">Desempeño</a></li>
         </ul>
