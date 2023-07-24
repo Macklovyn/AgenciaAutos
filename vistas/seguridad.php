@@ -88,22 +88,22 @@ include './header.php';
       <h3 class="skills-titleBLACK">Ofrecemos en nuestros vehiculos:</h3>
         <div class="contenedor">
             <div class="tabla">
-                <h3>Sistema Avanzado de Frenado movil</h3>
+                <h3>Sistema Avanzado de Frenado de Automovil</h3>
                 <p>Tecnología para mejorar la respuesta y precisión del vehículo.</p>
                 <a href="../vistas/frenado.php" class="boton">Conocer más</a>
             </div>
             <div class="tabla">
-                <h3>Sistema de Control de Estabilidad</h3>
+                <h3>Sistema de Control de Estabilidad de Auto</h3>
                 <p>Tecnología para mejorar la estabilidad y control del vehículo.</p>
                 <a href="../vistas/estabilidad.php" class="boton">Conocer más</a>
             </div>
             <div class="tabla">
-                <h3>Airbags Frontales y Laterales (AFL)</h3>
+                <h3>Airbags Frontales y Laterales de Automovil</h3>
                 <p>Dispositivo de seguridad diseñados en caso de colisión.</p>
                 <a href="../vistas/airbags.php" class="boton">Conocer más</a>
             </div>
             <div class="tabla">
-                <h3>Tecnología de Alerta de PuntoCiego</h3>
+                <h3>Tecnología de Alerta de Punto Ciego</h3>
                 <p>Sistema de asistencia de conducción para la seguridad. </p>
                 <a href="../vistas/puntoCiego.php" class="boton">Conocer más</a>
             </div>
