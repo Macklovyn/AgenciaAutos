@@ -1,6 +1,7 @@
-
 <link rel="stylesheet" href="login.css">
 <body>
+    <a href="../vistas/index.php" class="action_btn">Volver</a>
+
     <div class="container" id="container">
         <div class="form-container sign-up-container">
         <form method="post" action="loginprocess.php">

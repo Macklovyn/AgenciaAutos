@@ -29,6 +29,7 @@
                 <ul class="footer-list">
                     <li><a href="../vistas/about.php">About</a></li>
                     <li><a href="../vistas/login.php">Cuenta</a></li>
+                    <li><a href="../vistas/EstacionSuministros.php">Estaciones de suministro</a></li>
                     <li><a href="../vistas/contacto.php">Contacto</a></li>
                 </ul>
             </div>

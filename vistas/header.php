@@ -31,6 +31,10 @@
 
 <body>
 
+    <button class="btn-scrolltop" id="btn_scrolltop">
+    <i class="fas fa-chevron-up"></i>
+    </button>
+
     <header>
         <div class="navbar">
             <a href="../vistas/index.php" class="logo-link">
@@ -56,6 +60,7 @@
             <li><a href="../vistas/topSecret.php">¿Por que Top Secret?</a></li>
             <li><a href="../vistas/about.php">About</a></li>
             <li><a href="../vistas/login.php">Cuenta</a></li>
+            <li><a href="../vistas/EstacionSuministros.php">Estaciones de suministro</a></li>
             <li><a href="../vistas/contacto.php" class="action_btn">Contacto</a></li>
         </div>
     </header>

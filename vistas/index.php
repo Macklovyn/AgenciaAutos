@@ -1,10 +1,6 @@
-
 <?php 
 include './header.php';
 ?>
-    <div class="float-button">
-        <a href="" class="float-button-link"></a>
-    </div>
     <!--Aqui empieza video nissan z -->
     <div class="video-background">
         <video autoplay loop muted>
@@ -34,13 +30,11 @@ include './header.php';
     <!--Aqui acaba video nissan z -->
 
     <section>
-        <div class="container">
-            <div class="p-4 ">
+    <div class="contenedors">
+        <div class="contenidos">
                 <h2 class="title-main text-center font-weight-bold">Conoce nuestros autos</h2>
             </div>
-
         </div>
-
 
         <div class="container-fluid">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
