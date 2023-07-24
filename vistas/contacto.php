@@ -22,7 +22,7 @@ include './header.php';
     </div>
 
    <center>
-    <div class="container">
+    <div class="containerado">
         <header>Formulario de Contacto</header>
         <form action="#">
             <div class="form first">
