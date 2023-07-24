@@ -10,7 +10,7 @@ include '../vistas/header.php';
                 <li><a href="./desempeñoWXR.php">Desempeño</a></li>
             </ul>
         </nav>
-        <a class="btn" href="#"><button>Comprar</button></a>
+        <a class="btn" href="../vistas/compra.php"><button>Comprar</button></a>
     </div>
     <main>
         <section>
